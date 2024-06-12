@@ -1,8 +1,9 @@
+import Filter from "../../components/Filter/Filter";
+
 const CatalogPage = () => {
   return (
     <div>
-      <p>сторінка, що містить каталог автівок різної комплектації</p>
-      {/* <Filter /> */}
+      <Filter />
     </div>
   );
 };

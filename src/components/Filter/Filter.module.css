@@ -1,0 +1,72 @@
+.form_wrapper {
+  display: flex;
+  gap: 18px;
+  text-align: right;
+  margin: 20px;
+  align-items: flex-end;
+}
+
+.input_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_wrapper label {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  color: #8a8a89;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.input_wrapper input,
+.input_wrapper select {
+  border-radius: 14px;
+  padding: 14px;
+  background-color: #f7f7fb;
+  border: none;
+
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 111%;
+  color: #121417;
+}
+
+.input_wrapper input:focus,
+.input_wrapper select:focus {
+  /* background-color: rebeccapurple; */
+  border-color: transparent;
+}
+
+.btn {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #fff;
+  border-color: transparent;
+  border-radius: 12px;
+  padding: 14px 44px;
+
+  background: #3470ff;
+  transition: background-color 250ms ease-in-out;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #0b44cd;
+}
+
+.input_wrapper .input_left {
+  border-radius: 14px 0 0 14px;
+  border-right: 1px solid rgba(138, 138, 137, 0.2);
+}
+.input_wrapper .input_right {
+  border-radius: 0 14px 14px 0;
+}
+
+.input_text_wrapper {
+  display: flex;
+}
